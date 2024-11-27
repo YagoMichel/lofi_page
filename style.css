@@ -4,3 +4,57 @@
     margin: 0;
     padding: 0;
 }
+.card-info h1 {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    color: #ffcc99; 
+}
+
+.card-info p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #1e1e1e; 
+    color: antiquewhite;
+    width: 45em;
+    padding: 1.5rem 2rem;
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 25px auto; 
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.card-image-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-image-container img {
+    
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ffcc99;
+    color: #1e1e1e;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    font-size: 18px;
+    transition:  0.3s;
+}
+
+button:hover {
+    background-color: #ff9966;
+    transform: scale(1.1);
+}
